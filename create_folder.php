@@ -3,6 +3,9 @@
 $folderName = $_GET['folderName'];
 
 $jsonFolder = 'json';
+if (is_dir($jsonFolder) === False) {
+    mkdir($jsonFolder);
+}
 
 $newFolderPath = $jsonFolder . '/' . $folderName;
 
