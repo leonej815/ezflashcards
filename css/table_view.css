@@ -1,0 +1,126 @@
+#table, .tableEl{
+    border: 1px solid;
+}
+
+#tableView{
+    padding-top: 46px;
+    display: none;
+}
+
+#tableHeading{
+    border-bottom: 1px solid black;
+    background: #fff;
+    z-index: 10;
+    top: 25;
+    font-size: 18px;
+    position: fixed;
+    max-width: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+#tableTitle{
+    position: relative;
+    left: 4;
+}
+
+#tableInvert{
+    position: relative;
+    color: blue;
+    float: right;
+    right: 4;
+    cursor: pointer;
+}
+
+#table{
+    max-width: 1000px;
+    width: 100%;
+    table-layout: fixed;
+    margin: auto;
+}
+
+.numberCell{
+    width: 20px;
+    text-align: center;
+}
+
+.tableEl{
+    font-family: arial;
+    max-width: 47.5%;
+    height: 30px;
+}
+
+#deleteRow{
+    border-top: 0.5px solid black;
+}
+
+#input{
+    font-family: arial;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    overflow: hidden;
+    height: 19px;
+    width: 100%;
+    resize: none;
+    word-wrap: hard;
+}
+
+#showMenu{
+    border: 2px solid black;
+    opacity: 100;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#showMenu:hover{
+    border-color: blue;
+    color: blue;
+}
+
+.elText{
+    word-wrap: break-word;
+}
+
+#firstTableEl{
+    border: 2px solid orange;   
+}
+
+#menu{
+    z-index: 5;
+    height: 0px;
+    position: relative;
+    float: right;
+    top: 5;
+    right: -3;
+}
+
+#menuoptions{
+    display: none;
+}
+
+.menuOption:hover{
+    border-color: blue;
+    color: blue;
+    cursor: pointer;
+}    
+
+.menuOption{
+    background: #fff;
+    opacity: 100;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#insertRow{
+    border-bottom: 0px;
+}
+
+
+
+#tableInvert:hover{
+    color: orange;
+}

@@ -1,0 +1,38 @@
+#fcView{
+    padding-top: 25px;
+}
+
+#fcNav{
+    padding-top: 1%;
+    text-align: center;
+}
+
+#fcCard{
+    cursor: pointer;
+    display:table;
+    width: 100%;
+    border: 1px solid black;
+    min-height: 30%;
+    text-align: center;
+}
+
+#fcText{
+    font-size: 24px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fcNavOpt{
+    cursor: pointer;
+}
+
+.fcNavOpt:hover{
+    color: orange;
+}
+
+#fcTitle{
+    text-align: center;
+    padding: 1%;
+    font-size: 18px;
+}

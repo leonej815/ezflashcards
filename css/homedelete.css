@@ -1,0 +1,43 @@
+#success{
+    display: none;
+    border: solid 1px green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#error{
+    display: none;
+    border: solid 1px red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#newFileDiv{
+    display: none;
+}
+
+#newFileName, #newFolderName{
+    display: none;
+}
+
+#newFolder, #newFile{
+    display; block;
+}
+
+.folderButton, .fileButton{
+    display: block;
+    top: 0;
+}
+
+#homeTable{
+    text-align: left;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+

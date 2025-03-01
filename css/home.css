@@ -1,0 +1,83 @@
+#success{
+    display: none;
+    border: solid 1px green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#homeView{
+    margin: auto;
+    max-width: 1000px;
+}
+
+#homeHeading{  
+    width: 100%;   
+}
+
+#homeHeading span{  
+    width: 50%;
+    display: inline-block;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#error{
+    display: none;
+    border: solid 1px red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#foldersContainer, #filesContainer{
+    max-width: 490px;
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#newFileDiv{
+    display: none;
+}
+
+#newFileName, #newFolderName{
+    display: none;
+}
+
+#newFolder, #newFile{
+    display; block;
+    cursor: pointer;
+    color: blue;
+}
+
+#newFolder:hover, #newFile:hover{ 
+    color: orange;
+}  
+
+.folderButton:hover, .fileButton:hover, .deleteFileButton:hover, .deleteFolderButton:hover{
+    color: orange;
+}
+
+.folderButton, .fileButton{
+    width: 100%;
+    cursor: pointer;
+}
+
+.deleteFileButton, .deleteFolderButton{
+    cursor: pointer;
+    display: none;
+    color: blue;
+    float: right;
+}
+
+.folderButtonContainer, .fileButtonContainer{
+    min-height: 18px;
+    padding-right: 3%;
+}
+
+.folderButtonContainer:hover, .fileButtonContainer:hover{
+    padding-right: 3%;
+    background: #D3D3D3;
+}
